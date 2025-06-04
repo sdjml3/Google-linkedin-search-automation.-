@@ -2,8 +2,8 @@ import requests
 
 
 def search_gemini(query):
-    api_key = "AIzaSyByswXjVpX5AIDhwT_T77ikKMUE2VMu7uM"
-    #api_key1='AIzaSyClZfK3_0NqJxngfe8Kr35ItMOpFBsLOIw'
+    api_key = "your Api key"
+    
     url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=" + api_key
 
     headers = {
